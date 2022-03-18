@@ -13,25 +13,23 @@
     
     <header>
         <nav>
-            <h1 class="logo">cp</h1>
-            <ul class="nav-links"> 
+            <h1 id="logo">cp</h1>
+            <ul id="nav-links"> 
                 <li><a class="link-item" href="#about-me">about</a></li>
-                <!-- <i class="fa-solid fa-folder-closed"></i> -->
                 <li><a class="link-item" href="#my-portfolio">portfolio</a></li>
                 <li><a class="link-item" href="https://www.github.com/cpaschall">github</a></li>
                 <li><a class="link-item" href="#contact-me">contact</a></li>
             </ul>
         </nav>
-        
-        
     </header>
+
     <main>
-        <section class="intro"> 
+        <section id="intro"> 
             <h1>hi, i'm cal.</h1>
             <img src="./assets/images/cal-toon4.png" alt="">
             <h3>a web developer.</h3>
         </section>
-        <section class="link-info">
+        <section>
             <div id="about-me">
                 <h1>about me</h1>
                 <p>
@@ -44,22 +42,25 @@
                 <h1>portfolio</h1>
                 <div id="portfolio-projects">
                     <div class="project-container">
-                        <!-- <div class="title-card">
-                            <p>Test</p>
-                        </div> -->
                         <h3>My Portfolio</h3>
-                        <a href=""><img src="./assets/images/code-portfolio.jpg" alt=""></a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque, ad ratione nesciunt fugiat maxime molestias! Modi deleniti eveniet aliquam, perspiciatis porro fugit possimus. Alias distinctio ea rerum tempora culpa!</p>
+                        <a href="https://cpaschall.github.io/code-portfolio/">
+                            <img src="./assets/images/code-portfolio.jpg" alt="">
+                            <p>My webpage, come see my work!</p>
+                        </a>
                     </div>
                     <div class="project-container">
                         <h3>Code Refactoring</h3>
-                        <a href=""><img src="./assets/images/code-refactor.png" alt=""></a>
-                        <p></p>
+                        <a href="https://cpaschall.github.io/code-refactor/">
+                            <img src="./assets/images/code-refactor.png" alt="">
+                            <p>My first real project!</p>
+                        </a>
                     </div>
                     <div class="project-container">
                         <h3>Day 1 Coding</h3>
-                        <a href=""><img src="./assets/images/day-1.jpg" alt=""></a>
-                        <p></p>
+                        <a href="https://cpaschall.github.io/first-day-repo/">
+                            <img src="./assets/images/day-1.jpg" alt="">
+                            <p>My very first web page! Nothing to see here...literally.</p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -68,15 +69,15 @@
                 <form action="" id="contact-form">
                     <p>
                         <label for="full-name">name:</label>
-                        <input type="text" id="full-name" placeholder="first last">
+                        <input type="text" class="text-input" id="full-name" placeholder="first last">
                     </p>
                     <p>
                         <label for="email">email:</label>
-                        <input type="text" id="email" placeholder="me@email.com">
+                        <input type="text" class="text-input" id="email" placeholder="me@email.com">
                     </p>
                     <p>
                         <label for="message">message:</label>
-                        <textarea name="message" id="message" placeholder="please send me a question!"></textarea>
+                        <textarea class="text-input" name="message" id="message" placeholder="please send me a question!"></textarea>
                     </p>
                     <p>
                         <button>send email</button>
